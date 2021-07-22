@@ -36,20 +36,25 @@ const Home = () => {
           }}
         />
 
-        {breeds.filter((breed) => {
-          if(searchBreed === "") {
-            return breed;
-          } else if(breed.toLowerCase().includes(searchBreed.toLowerCase())) {
-            return breed;
-          }
-        }).map((breed, key) => {
-          return (
-            <div className="home__breedsList" key={key}>
-              <Link className="home__breeds" to={`/breed/${breed}`}>{breed}</Link>
-            </div>
-          )
-        })}
-
+        <div className="home__breedList">
+          {breeds.filter((breed) => {
+            if(searchBreed === "") {
+              return breed;
+            } else if(breed.toLowerCase().includes(searchBreed.toLowerCase())) {
+              return breed;
+            }
+          }).map((breed, key) => {
+            return (
+              <Link
+                className="home__breeds"
+                key={key}
+                to={`/breed/${breed}`}
+              >
+                {breed}
+              </Link>
+            )
+          })}
+        </div>
       </div>
     </div>
   );

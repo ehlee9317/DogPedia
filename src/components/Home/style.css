@@ -18,8 +18,11 @@ p {
   font-size: 25px;
 }
 
-.home__breedsList {
-  margin: 15px;
+.home__breedList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .home__breeds {
@@ -31,4 +34,6 @@ p {
   padding-right: 20px;
   border-radius: 5px;
   background-color: rgb(249, 214, 214);
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
