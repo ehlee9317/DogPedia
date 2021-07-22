@@ -1,0 +1,34 @@
+.home {
+  justify-content: center;
+  text-align: center;
+}
+
+.home input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  padding-left: 10px;
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+p {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.home__breedsList {
+  margin: 15px;
+}
+
+.home__breeds {
+  font-size: 25px;
+  text-decoration: none;
+  border: 1px solid rgb(199, 199, 199);
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(249, 214, 214);
+}

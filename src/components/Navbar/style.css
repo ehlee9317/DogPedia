@@ -1,0 +1,28 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #a0a0a068;
+}
+
+.navbar h1 {
+  color: #f74c80;
+  font-size: 90px;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  /* margin-left: 16px; */
+  text-decoration: none;
+  padding: 26px;
+  font-size: 30px;
+}
+
+.navbar a:hover {
+  color: #f74c80;
+}
